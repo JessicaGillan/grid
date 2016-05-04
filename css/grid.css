@@ -1,9 +1,22 @@
-.container {
-	background-color: red;
-}
 div{
 	background-color: rgb(126, 180, 244);
-	height: 400px;
-	width: 400px;
-	margin: 10px;
+	margin: 1px;
+	float: left;
+}
+.container{
+	background-color: white;
+	margin: 0 -5px;
+}
+.changed{
+	background-color:  rgba(255, 240, 51, 0.97);
+}
+button{
+    background-color: white;
+    color: #7b777c;
+    border: 2px solid #a19ba2; /* Grey */
+    font-size: 18px;
+}
+button:hover {
+    background-color: #a19ba2; 
+    color: white;
 }
